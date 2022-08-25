@@ -97,6 +97,7 @@ if (username in allowedUsers):
                 b = binom(value, value1, value2, value3)
                 print(b)
             elif (choice == 2):
+                print('Please enter function name')
                 
                 import inspect 
                 def tooltip(function):
